@@ -1,3 +1,3 @@
 # knowledge
 
-:gift: Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts) [knowledge repository](https://github.com/yoshuawuyts/knowledge)
+:gift: Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts)'s [knowledge repository](https://github.com/yoshuawuyts/knowledge)

@@ -1,9 +1,9 @@
 # Package Manager Hyperpolyglot
 
-|     | [npm] | [bundler] |
-| --- | --- | --- | --- |
-| Create configuration file | [`npm init`][npm-init] | [`bundle init`][bundler-init] |
-| Install a package | [`npm i || install`][npm-install] | [`bundle install --path vendor/bundle`][bundler-install] |
+|     | [npm] | [bundler] | [composer]
+| --- | --- | --- | --- | --- |
+| Create configuration file | [`npm init`][npm-init] | [`bundle init`][bundler-init] | |
+| Install a package | [`npm i || install`][npm-install] | [`bundle install --path vendor/bundle`][bundler-install] | |
 
 
 <!-- NPM -->
@@ -16,3 +16,5 @@
 [bundler-init]:    http://bundler.io/v1.12/bundle_init.html
 [bundler-install]: http://bundler.io/v1.12/man/bundle-install.1.html
 
+<!-- Composer -->
+[composer]: https://getcomposer.org/

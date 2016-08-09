@@ -3,7 +3,7 @@
 |     | [npm] | [bundler] |
 | --- | --- | --- | --- |
 | Create configuration file | [`npm init`][npm-init] | [`bundle init`][bundler-init] |
-| Install a package | [`npm i \| install`][npm-install] | [`bundle install`][bundler-install] |
+| Install a package | [`npm i || install`][npm-install] | [`bundle install`][bundler-install] |
 
 
 <!-- NPM -->

@@ -12,3 +12,16 @@ xxx.xxx.xxx.xx - - [14/Aug/2016:03:41:31 +0000] "GET /hoge/ HTTP/1.1" 200 924 "M
 cat /path/to/access_log.txt | awk '{ if ($9 == <status code>) print $7; }'
 ```
 
+```bash
+zcat /path/to/access_log.txt | awk '{ if ($9 == <status code>) print $7; }'
+```
+
+Example `404`:
+
+```bash
+cat /path/to/access_log.txt | awk '{ if ($9 == 404) print $7; }'
+```
+
+```bash
+zcat /path/to/access_log.txt | awk '{ if ($9 == 404) print $7; }'
+```

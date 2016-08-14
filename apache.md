@@ -3,7 +3,7 @@
 ## Analyzing Apache Log Files
 
 ```bash
-xxx.xxx.xxx.xx - - [14/Aug/2016:03:41:31 +0000] "GET /hoge/ HTTP/1.1" 200 924 "Mozilla/5.0 (Linux; Android 6.0.1; SC-02H Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36"
+127.0.0.1 - frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326 "http://www.example.com/start.html" "Mozilla/4.08 [en] (Win98; I ;Nav)"
 ```
 
 ```bash

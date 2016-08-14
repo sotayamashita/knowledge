@@ -15,5 +15,14 @@ awk '{print $9}'         # status code (%>s)
 awk '{print $10}'        # size (%b)
 ```
 
+### Example
+
+Status Code 200:
+
+```bash
+cat /path/to/access_log.txt | awk '{$9 ~ /200/}'
+```
+
+
 * [System: Analyzing Apache Log Files](http://www.the-art-of-web.com/system/logs/)
 

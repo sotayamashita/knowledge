@@ -20,7 +20,7 @@ awk '{print $10}'        # size (%b)
 Status Code 200:
 
 ```bash
-cat /path/to/access_log.txt | awk '{$9 ~ /200/}'
+cat /path/to/access_log.txt | awk '{if ($9 == 200) print $7;}'
 ```
 
 

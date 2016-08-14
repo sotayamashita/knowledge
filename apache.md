@@ -24,5 +24,6 @@ cat /path/to/access_log.txt | awk '{if ($9 == 200) print $7;}'
 ```
 
 
+* [Apache Log Files](http://httpd.apache.org/docs/2.4/en/logs.html)
 * [System: Analyzing Apache Log Files](http://www.the-art-of-web.com/system/logs/)
 

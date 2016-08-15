@@ -17,3 +17,4 @@ Example:
 ```
 
 * [Access Logs for Your Classic Load Balancer](http://docs.aws.amazon.com/elasticloadbalancing/latest/classic/access-log-collection.html)
+* [ELBがアクセスログを出力できるようになりました！](http://dev.classmethod.jp/cloud/aws/elb-featured-accesslog/)

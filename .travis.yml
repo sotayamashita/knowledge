@@ -10,4 +10,4 @@ before_script:
   - gem install awesome_bot
   
 script:
-  - awesome_bot **/*.md --allow-dupe
+  - awesome_bot **/*.md --allow-dupe --allow-redirect 

@@ -6,6 +6,11 @@
 
 # English
 
+## Test structured data
+
+Use [Structured data testing tool](https://search.google.com/structured-data/testing-tool/u/0/)
+
+
 ## Sites Using Schema.org
 
 * Blog
@@ -22,6 +27,11 @@
 
 
 # 日本語
+
+## 構造化データの確認
+
+[構造化テストツール](https://search.google.com/structured-data/testing-tool/u/0/)を使用してください。
+
 
 ## Schema.org を使っているサイト一覧
 

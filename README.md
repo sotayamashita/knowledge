@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/sotayamashita/knowledge.svg?branch=master)](https://travis-ci.org/sotayamashita/knowledge)
+[Build Badge]: https://travis-ci.org/sotayamashita/knowledge.svg?branch=master
+[Build Link]:  https://travis-ci.org/sotayamashita/knowledge
 
-# knowledge
+# knowledge [![Build Status][Build Badge]][Build Link]
 
 :gift: Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts)'s [knowledge repository](https://github.com/yoshuawuyts/knowledge)
 

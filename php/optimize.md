@@ -5,4 +5,3 @@
 ## References
 
 * [The PHP Benchmark](http://www.phpbench.com/)
-* []

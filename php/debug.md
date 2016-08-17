@@ -12,7 +12,9 @@ function debug_time(){
     static $pre_time = 0;
 
     $time = microtime(true);
-    if(!$start_time) $start_time = $time;
+    if(!$start_time) {
+        $start_time = $time;
+    }
 
     if($pre_time){
         echo sprintf('<div>[%s(%d) - %s(%d)]: %d ms(ttl:%d ms)</div>', 

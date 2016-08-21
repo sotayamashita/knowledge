@@ -1,6 +1,6 @@
 # ELB (Elastic Load Balancing)
 
-* [日本語]()
+* [日本語](#日本語)
 
 # 日本語
 

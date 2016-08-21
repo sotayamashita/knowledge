@@ -23,7 +23,7 @@
 bucket[/prefix]/AWSLogs/aws-account-id/elasticloadbalancing/region/yyyy/mm/dd/aws-account-id_elasticloadbalancing_region_load-balancer-name_end-time_ip-address_random-string.log
 ```
 
-**アクセスログ**
+### アクセスログ
 
 構文：
 

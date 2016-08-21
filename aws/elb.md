@@ -35,7 +35,7 @@ timestamp elb client:port backend:port request_processing_time backend_processin
 
 ウェブ上：
 
-<kbd>⌘F<kbd>　... ページ内検索（` 504 `）
+<kbd>⌘F</kbd> ... ページ内検索 ` 504 `
 
 
 * [Classic ロードバランサーのトラブルシューティングを行う: HTTP エラー](http://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/classic/ts-elb-error-message.html#ts-elb-errorcodes-http502)

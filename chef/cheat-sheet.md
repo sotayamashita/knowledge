@@ -3,7 +3,7 @@
 ## Recipe
 
 ```ruby
-bash "hoge" do
+bash "name" do
   code <<-EOS
     
   EOS

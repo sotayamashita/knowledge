@@ -3,7 +3,7 @@
 ## 日本語
 
 ```
-❯ sudo gem install bundler
+sudo gem install bundler
 ERROR:  While executing gem ... (Errno::EPERM)
     Operation not permitted - /usr/bin/bundle
 ```

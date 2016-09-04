@@ -2,7 +2,7 @@
 
 ## Debug
 
-```
+```bash
 #!/bin/bash
 
 to="/path/to/.config/fish/functions/"

@@ -1,4 +1,4 @@
-# Performance and memory usage
+# Optimize performance and memory usage
 
 * Use `array_*` instead of `loop` as far as possible. 
 

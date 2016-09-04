@@ -51,3 +51,5 @@ function debug_time(){
 * [The PHP Benchmark](http://www.phpbench.com/)
 * http://we-love-php.blogspot.jp/2012/06/php-memory-consumption-with-arrays.html
 * http://qiita.com/kkam0907/items/836c8977776453746455
+* http://www.bigeng.io/php-memory-optimization/
+* https://alexatnet.com/articles/optimize-php-memory-usage-eliminate-circular-references

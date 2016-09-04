@@ -3,7 +3,7 @@
 |     | [npm] | [bundler] | [composer]
 | --- | --- | --- | --- | --- |
 | Create configuration file | [`npm init`][npm-init] | [`bundle init`][bundler-init] | [`composer init`][composer-init] |
-| Install a package | [`npm i || install`][npm-install] | [`bundle install --path vendor/bundle`][bundler-install] | [`composer require`][composer-require]|
+| Install a package | [`npm install`][npm-install] | [`bundle install --path vendor/bundle`][bundler-install] | [`composer require`][composer-require]|
 
 
 <!-- NPM -->

@@ -1,4 +1,4 @@
-# Tips
+# Other Tips
 
 ## 日本語
 

@@ -1,10 +1,9 @@
 # Jetbrains
 
 * [日本語](#日本語)
-* [English[(#English)
+* [English](#English)
 
 ## 日本語
-
 
 * <kbd>⌘1</kbd> ...... プロジェクト表示
 * <kbd>ctl + G</kbd>.. 複数選択

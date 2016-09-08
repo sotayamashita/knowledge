@@ -1,10 +1,10 @@
 # Hack
 
-# 日本語
+# English
 
-## 大きなディレクトリ削除
+## Delete large directory containing thousands of files efficiently
 
-準備：
+setup:
 
 ```
 mkdir hoge/

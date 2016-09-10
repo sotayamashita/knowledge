@@ -1,6 +1,6 @@
 # Progressive Web App
 
-## 日本語
+# 日本語
 
 ###### メモ
 
@@ -22,14 +22,14 @@ Progressive Web App は新しい技術ではなく今ままでの技術を組み
 * レスポンシブ
 
 
-### サンプル
+## サンプル
 
 **[Y Combinator Companies](http://www.ycombinator.com/companies/)**
 
 
 
 
-### カンファレンス
+## カンファレンス
 
 **Progressive Web App Dev Summit 2016** @ Amsterdam
 

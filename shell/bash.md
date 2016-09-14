@@ -1,5 +1,7 @@
 # Bash
 
+## Handling Command Line Arguments
+
 ```bash
 while true; do
     case "$1" in

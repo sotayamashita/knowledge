@@ -1,6 +1,6 @@
 # Bash
 
-```
+```bash
 for ARGUMENT in $@
 do
     case "$1" in

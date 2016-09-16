@@ -4,6 +4,12 @@
 
 ## 日本語
 
+### ELB とは
+
+TODO
+
+
+
 ### アクセスログの解析
 
 #### 考えられるエラー
@@ -40,3 +46,7 @@ timestamp elb client:port backend:port request_processing_time backend_processin
 
 * [Classic ロードバランサーのトラブルシューティングを行う: HTTP エラー](http://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/classic/ts-elb-error-message.html#ts-elb-errorcodes-http502)
 * [Classic ロードバランサーのアクセスログ](http://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/classic/access-log-collection.html)
+* https://aws.amazon.com/jp/premiumsupport/knowledge-center/elb-latency-troubleshooting/
+* http://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/classic/ts-elb-healthcheck.html
+* https://aws.amazon.com/jp/premiumsupport/knowledge-center/elb-connectivity-troubleshooting/
+* http://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/userguide/what-is-load-balancing.html

@@ -8,8 +8,7 @@
 [![Build Status][Build Badge]][Build Link]
 [![PRs & Issues Welcome][welcom-badge]][welcome-link]
 
-> Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts)'s [knowledge repository](https://github.com/yoshuawuyts/knowledge)
-> It is my knowledage repo and written in English and Japanese. I add references and there are affaliate link as possible as it can. If you do not like them please remove affaliate paramaters.
+> Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts)'s [knowledge repository](https://github.com/yoshuawuyts/knowledge). It is my knowledage repo and written in English and Japanese. I add references and there are affaliate link as possible as it can. If you do not like them please remove affaliate paramaters.
 
 ## See Also
 

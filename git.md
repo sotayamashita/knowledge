@@ -22,5 +22,13 @@ $ git revert -m 1 commit_hash
 $ git show or log
 ```
 
+リバートした変更を他のブランチに救出：
+
+```
+$ git branch commit -b feature/tmp
+$ git revert commit_hash
+$ git push origin feature/tmp
+```
+
 - [Undo a merge by pull request?](http://stackoverflow.com/questions/6481575/undo-a-merge-by-pull-request)
 - [Undo a Git merge that hasn't been pushed yet?](http://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet)

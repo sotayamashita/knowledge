@@ -12,8 +12,9 @@
 
 ## See Also
 
-* [yoshuawuyts/knowledge](https://github.com/yoshuawuyts/knowledge)
-* [joshwnj/knowledge](https://github.com/joshwnj/knowledge)
+- [yoshuawuyts/knowledge](https://github.com/yoshuawuyts/knowledge)
+- [joshwnj/knowledge](https://github.com/joshwnj/knowledge)
+- [theatlasroom/tidbits](https://github.com/theatlasroom/tidbits)
 
 
 ## License

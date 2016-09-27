@@ -11,7 +11,7 @@ fatal: revert failed
 ```
 
 ```
-git revert -m -1 commit_hash
+git revert -m 1 commit_hash
 ```
 
 - [Undo a merge by pull request?](http://stackoverflow.com/questions/6481575/undo-a-merge-by-pull-request)

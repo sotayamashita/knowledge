@@ -1,4 +1,4 @@
-# Ready
+# Ready and Load
 
 ```javascript
 (function() {

@@ -27,6 +27,9 @@ $ git merge upstream/master
 Updating 909c5ba..56b016d
 ```
 
+- [Syncing a fork | GitHub](https://help.github.com/articles/syncing-a-fork/)
+- [Clean up a fork and restart it from the upstream | StackOverflow](http://stackoverflow.com/questions/9646167/clean-up-a-fork-and-restart-it-from-the-upstream)
+
 
 ### プルリクエスト(マージリクエスト)のリバート
 

@@ -2,6 +2,32 @@
 
 ## 日本語
 
+### Fork したレポジトリを本家に追従
+
+```
+$ git remote add upstream git@github.com:nodejs/nodejs.org.git
+$ git branch -a
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/upstream/master
+```
+
+```
+$ git fetch upstream
+remote: Counting objects: 184, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 184 (delta 89), reused 89 (delta 89), pack-reused 89
+Receiving objects: 100% (184/184), 112.38 KiB | 50.00 KiB/s, done.
+Resolving deltas: 100% (122/122), completed with 28 local objects.
+From github.com:nodejs/nodejs.org
+```
+
+```
+$ git merge upstream/master
+Updating 909c5ba..56b016d
+```
+
+
 ### プルリクエスト(マージリクエスト)のリバート
 
 ```

@@ -6,4 +6,9 @@
 #### 目次
 * Node.js について
 * ES6 とそれ以降のバージョンについて
+* 情報のキャッチアップ方法
 * 貢献方法
+
+### 情報のキャッチアップ方法
+
+* [Last Week in Node.js Working Groups](https://nodesource.com/blog/) ... NodeSource によってまとめられたその週の Node.js ワーキンググループであったいろいろなことがまとめられています。GitHub issue や IRC チャンネル追うのは大変という方には向いています。

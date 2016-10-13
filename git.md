@@ -4,7 +4,7 @@
 
 ### マージ済みのブランチ一覧表示
 
-```
+```bash
 # マージされたブランチを表示（master と develop を除く）
 $ git branch --merged | grep -vE '^\*|master$|develop$
   feature/hoge

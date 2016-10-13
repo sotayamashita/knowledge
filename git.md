@@ -5,9 +5,13 @@
 ### マージ済みのブランチ一覧表示
 
 ```
+# マージされたブランチを表示（master と develop を除く）
 $ git branch --merged | grep -vE '^\*|master$|develop$
   feature/hoge
   feature/fuga
+
+# マージされたブランチを削除（master と develop を除く）
+$ git branch --merged | grep -vE '^\*|master$|develop$ | xargs -I % git branch -d %
 ```
 
 * [git branch](https://git-scm.com/docs/git-branch)

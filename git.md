@@ -2,6 +2,17 @@
 
 ## 日本語
 
+### マージ済みのブランチ一覧表示
+
+```
+$ git branch --merged | grep -vE '^\*|master$|develop$
+  feature/hoge
+  feature/fuga
+```
+
+* [git branch](https://git-scm.com/docs/git-branch)
+
+
 ### Fork したレポジトリを本家に追従
 
 ```

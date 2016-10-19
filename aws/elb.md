@@ -53,3 +53,7 @@ timestamp elb client:port backend:port request_processing_time backend_processin
 * http://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/classic/ts-elb-healthcheck.html
 * https://aws.amazon.com/jp/premiumsupport/knowledge-center/elb-connectivity-troubleshooting/
 * http://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/userguide/what-is-load-balancing.html
+* http://dev.classmethod.jp/cloud/aws/elb-and-cloudwatch-metrics-in-depth/
+* http://qiita.com/iron-breaker/items/54bf469a4c17d4350f3b
+* https://liginc.co.jp/189709
+* https://www.kerstner.at/2014/08/503-error-back-end-server-capacity-amazon-web-services-elastic-load-balancer/

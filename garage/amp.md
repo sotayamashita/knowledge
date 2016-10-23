@@ -4,6 +4,11 @@
 
 #### 目次
 
+* AMP とは
+* AMP HTML
+* AMP JS
+* Google AMP Cache
+* AMP の仕組み
 * トラブルシューティング
 
 ## AMP とは
@@ -18,7 +23,13 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
 
 AMP HTML は通常の HTML で使えるタグに加えて独自タグを使えるようにしたものです。独自タグのことを "AMP HTML components" と読んでいます。例えば `amp-img` タグなどがそれにあたります。
 
-##
+## AMP JS
+
+AMP JS ライブラリは AMP のパフォーマンスのベストプラクティスで挙げているものを実装したもの。
+
+## Google AMP Cache 
+
+Google AMP Cache は CDN でバリデーター機能も組み込まれていてそれを使って正しく動作することが保証されている。
 
 
  # # バリデーション
@@ -35,7 +46,7 @@ AMP HTML は通常の HTML で使えるタグに加えて独自タグを使え�
 
 ## トラブルシューティング
 
-基本的に考えられるエラーは Google が [AMP Validation Erros](https://www.ampproject.org/docs/reference/validation_errors) と言うかたちでまとめてくれているのでそこでまず検索してみるといいです。
+基本的に考えられるエラーは Google が [AMP Validation Erros](https://www.ampproject.org/docs/reference/validation_errors) と言うかたちでまとめてくれているのでそこでまず検索してみればいいです。
 
 ### The attribute 'datatime' may not appear in tag 'time'
 

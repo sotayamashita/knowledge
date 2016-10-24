@@ -18,7 +18,7 @@ Use [Structured data testing tool](https://search.google.com/structured-data/tes
 * Social Network
   * [Google Plus](https://plus.google.com/)
 * Mobile App Stores
-  * Google Play Store > App - E.g: [facebook](https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en)
+  * Google Play Store > App - E.g: facebook
   * Itunes Store > App - E.g: facebook
 * Others
   * [Cookpad](https://cookpad.com/us)  
@@ -40,7 +40,7 @@ Use [Structured data testing tool](https://search.google.com/structured-data/tes
 * SNS
   * [Google Plus](https://plus.google.com/)
 * アプリストア
-  * Google Play Store > App - E.g: [facebook](https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en)
+  * Google Play Store > App - E.g: facebook
   * Itunes Store > App - E.g: facebook
 * その他
   * [クックパッド](http://cookpad.com/) 

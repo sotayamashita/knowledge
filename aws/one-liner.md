@@ -13,6 +13,8 @@
 
 ## ELB
 
+**IPアドレスリスト取得**
+
 ```bash
-$ aws ec2 describe-network-interfaces --filters "Name=description,Values=<ELB ${ELBのLoad Balancer Name}>" | jq -r '.NetworkInterfaces[] | .Association.PublicIp' | sort
+$ aws --profile=${AWS profile} ec2 describe-network-interfaces --filters "Name=description,Values=ELB ${ELBのLoad Balancer Name}" | jq -r '.NetworkInterfaces[] | .Association.PublicIp'
 ```

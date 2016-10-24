@@ -13,10 +13,14 @@
 
 ## ELB
 
+**紐づいている InstanceId と status 取得**
+
+```bash
+$ aws elb describe-instance-health --load-balancer-name ${ELBのLoad Balancer Name} | jq -r '.InstanceStates[]|{InstanceId, State}'
+```
+
 **IPアドレスリスト取得**
 
 ```bash
 $ aws --profile=${AWS profile} ec2 describe-network-interfaces --filters "Name=description,Values=ELB ${ELBのLoad Balancer Name}" | jq -r '.NetworkInterfaces[] | .Association.PublicIp'
 ```
-
-_参照：[ELBのIPアドレスリストをワンライナーで取得する](http://dev.classmethod.jp/cloud/aws/get-elb-ip-address-list-by-one-liner/)_

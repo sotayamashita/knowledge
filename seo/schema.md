@@ -19,7 +19,7 @@ Use [Structured data testing tool](https://search.google.com/structured-data/tes
   * [Google Plus](https://plus.google.com/)
 * Mobile App Stores
   * Google Play Store > App - E.g: [facebook](https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en)
-  * Itunes Store > App - E.g: [facebook](https://itunes.apple.com/en/app/facebook/id284882215?mt=8)
+  * Itunes Store > App - E.g: facebook
 * Others
   * [Cookpad](https://cookpad.com/us)  
 

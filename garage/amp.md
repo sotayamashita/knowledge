@@ -1,4 +1,4 @@
-# AMP ⚡
+# AMP ⚡ (Accelerated Mobile Pages Project)
 
 # 日本語
 

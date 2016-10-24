@@ -18,3 +18,5 @@
 ```bash
 $ aws --profile=${AWS profile} ec2 describe-network-interfaces --filters "Name=description,Values=ELB ${ELBのLoad Balancer Name}" | jq -r '.NetworkInterfaces[] | .Association.PublicIp'
 ```
+
+_参照：[ELBのIPアドレスリストをワンライナーで取得する](http://dev.classmethod.jp/cloud/aws/get-elb-ip-address-list-by-one-liner/)_

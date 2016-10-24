@@ -48,16 +48,4 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
 
 基本的に考えられるエラーは Google が [AMP Validation Erros](https://www.ampproject.org/docs/reference/validation_errors) と言うかたちでまとめてくれているのでそこでまず検索してみればいいです。
 
-### The attribute 'datatime' may not appear in tag 'time'
-
-```html
-<!-- Good -->
-<time>Dec 19, 2014</time>
-
-<!-- Bad -->
-<time datetime="2014-12-19">Dec 19, 2014</time>
-```
-
-- [Add datetime attribute to non-machine-readable time element](https://github.com/hail2u/html-best-practices#add-datetime-attribute-to-non-machine-readable-time-element)
-
 

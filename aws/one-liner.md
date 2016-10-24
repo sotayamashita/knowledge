@@ -29,3 +29,4 @@ $ aws --profile=${AWS profile} ec2 describe-network-interfaces --filters "Name=d
 - http://qiita.com/takachan/items/421928dc61c51af97fb1
 - https://cloudonaut.io/6-tips-and-tricks-for-aws-command-line-ninjas/
 - http://cloudacademy.com/blog/aws-cli-10-useful-commands/
+- http://qiita.com/toshiro3/items/37821bdcc50c8b6d06dc

@@ -24,3 +24,8 @@ $ aws --profile=${AWS profile} elb describe-instance-health --load-balancer-name
 ```bash
 $ aws --profile=${AWS profile} ec2 describe-network-interfaces --filters "Name=description,Values=ELB ${ELBのLoad Balancer Name}" | jq -r '.NetworkInterfaces[] | .Association.PublicIp'
 ```
+
+
+- http://qiita.com/takachan/items/421928dc61c51af97fb1
+- https://cloudonaut.io/6-tips-and-tricks-for-aws-command-line-ninjas/
+- http://cloudacademy.com/blog/aws-cli-10-useful-commands/

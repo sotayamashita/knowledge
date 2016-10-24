@@ -16,7 +16,7 @@
 **紐づいている InstanceId と status 取得**
 
 ```bash
-$ aws elb describe-instance-health --load-balancer-name ${ELBのLoad Balancer Name} | jq -r '.InstanceStates[]|{InstanceId, State}'
+$ aws --profile=${AWS profile} elb describe-instance-health --load-balancer-name ${ELBのLoad Balancer Name} | jq -r '.InstanceStates[]|{InstanceId, State}'
 ```
 
 **IPアドレスリスト取得**

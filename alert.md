@@ -5,6 +5,30 @@
 
 # 日本語
 
+## CPUが高い理由を探る
+
+ps でどのプロセスが原因になっているかを調査する：
+
+```
+ps auxf | sort -nrk 3,3 | head -n 5
+```
+
+- `f` ... ASCII art forest
+
+http://sechiro.hatenablog.com/entry/20120805/1344139544
+http://www.itmedia.co.jp/help/tips/linux/l0158.html
+
+straceやoprofileでなぜそのプロセスがボトルネックなのか特定し、解決する：
+
+```
+
+```
+
+http://blog.livedoor.jp/sonots/archives/18193659.html
+
+
+
+
 ref 
 
 * http://qiita.com/k0kubun/items/8ab1dfa7c0359d8e618d

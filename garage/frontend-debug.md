@@ -11,3 +11,7 @@
 1. Mac のローカル IP を調べる `System Preferences > Network > Wifi`
 1. その IP を使ってサーバを起動する 例）`python -m SimpleHTTPServer 192.168.11.8:8080`
 1. 実機でその IP に接続する
+
+## Genymotion でシュミレートされたものを Chrome Dev Tools でデバック
+
+http://stackoverflow.com/questions/21627328/genymotion-how-to-debug-with-chrome-dev-tools

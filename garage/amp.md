@@ -4,12 +4,13 @@
 
 #### 目次
 
-* AMP とは
-* AMP HTML
-* AMP JS
-* Google AMP Cache
-* AMP の仕組み
-* トラブルシューティング
+- AMP とは
+- AMP HTML
+- AMP JS
+- Google AMP Cache
+- AMP の仕組み
+- tips
+- トラブルシューティング
 
 ## AMP とは
 
@@ -43,6 +44,34 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
   * https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc
 * CLI
   * `npm install -g amphtml-validator`
+
+## Tips
+
+### `<amp-iframe>`
+
+iframe 表示側記述：
+
+```
+<amp-iframe width=300 height=300
+    layout="responsive"
+    sandbox="allow-scripts allow-same-origin"
+    resizable
+    src="https://foo.com/iframe">
+  <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
+</amp-iframe>
+```
+
+iframe のコンテンツ側：
+
+```javascript
+<script>
+  window.parent.postMessage({
+   sentinel: 'amp',
+   type: 'embed-size',
+   height: document.body.scrollHeight
+  }, '*');
+</script>
+```
 
 ## トラブルシューティング
 

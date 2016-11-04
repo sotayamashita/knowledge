@@ -33,7 +33,7 @@ AMP JS ライブラリは AMP のパフォーマンスのベストプラクテ�
 Google AMP Cache は CDN でバリデーター機能も組み込まれていてそれを使って正しく動作することが保証されている。
 
 
- # # バリデーション
+## バリデーション
 
 * Developer Console
   * URL の最後に `<AMP対応ページURL>?development=1` をつける

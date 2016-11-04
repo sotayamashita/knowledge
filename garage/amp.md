@@ -35,15 +35,15 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
 
 ## バリデーション
 
-* Developer Console
+* デベロッパー コンソール
   * URL の最後に `<AMP対応ページURL>?development=1` をつける
-* Web 
+* Web インターフェース
   * `https://search.google.com/search-console/amp?url=<AMP対応ページURL>` へアクセス  
   * https://validator.ampproject.org/ へアクセスして URL を入力
+* コマンドラインインターフェース
+  * `npm install -g amphtml-validator`
 * ブラウザ拡張機能
   * https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc
-* CLI
-  * `npm install -g amphtml-validator`
 
 ## Tips
 

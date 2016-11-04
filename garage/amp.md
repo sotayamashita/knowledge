@@ -35,7 +35,7 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
 
 ## :mag_right: 検証
 
-* デベロッパー コンソール
+* デベロッパー コンソール _[ref][bowser-developer-console]_
   * URL の最後に `<AMP対応ページURL>?development=1` をつける
 * Web インターフェース
   * `https://search.google.com/search-console/amp?url=<AMP対応ページURL>` へアクセス  
@@ -49,6 +49,8 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
   ```
 * ブラウザ拡張機能
   * https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc
+
+[bowser-developer-console]: https://www.ampproject.org/docs/guides/validate#browser-developer-console
 
 ## Tips
 

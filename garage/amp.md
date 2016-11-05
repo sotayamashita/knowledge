@@ -4,13 +4,9 @@
 
 #### 目次
 
-- AMP とは
-- AMP HTML
-- AMP JS
-- Google AMP Cache
-- AMP の仕組み
-- tips
-- トラブルシューティング
+- [AMP とは]()
+- [なぜ AMMP ページは早いのか？]()
+- [ヒント](#ヒント)
 
 ## AMP とは
 
@@ -21,7 +17,7 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
 * Google AMP Cache ... AMP HTML をキャッシュしている Google の CDN
 
 
-## :chart_with_upwards_trend: なぜ AMMP ページは早いのか？
+## :chart_with_upwards_trend: なぜ AMP ページは早いのか？
 
 1. Allow only asynchronous scripts
 2. Size all resources statically
@@ -63,17 +59,16 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
   
 3. サーバサイドで計算する
 
-　　サーバ側であらかじめ決まった画像サイズしか返さないようにリサイズ処理をいれる。`/image/amp.png` というリクエストがきたらそれをリサイズなどの処理をして画像を返す。
+　　> サーバ側であらかじめ決まった画像サイズしか返さないようにリサイズ処理をいれる。`/image/amp.png` というリクエストがきたらそれをリサイズなどの処理をして画像を返す。
 
 
 ## :mag_right: 検証
 
-* デベロッパー コンソール （[参照][bowser-developer-console]）
-  * URL の最後に `<AMP対応ページURL>?#development=1` をつける
-* Web インターフェース（[参照][web-interface]）
-  * `https://search.google.com/search-console/amp?url=<AMP対応ページURL>` へアクセス  
-  * https://validator.ampproject.org/ へアクセスして URL を入力
-* コマンドラインインターフェース（[参照][command-line-tool]）
+- デベロッパー コンソール （[参照][bowser-developer-console]）
+  - URL の最後に `<AMP対応ページURL>?#development=1` をつける
+- Web インターフェース（[参照][web-interface]）
+  - `https://search.google.com/search-console/amp?url=<AMP対応ページURL>` へアクセス  
+  - https://validator.ampproject.org/ へアクセスして URL を入力-* コマンドラインインターフェース（[参照][command-line-tool]）
 
   ```
   $ npm install -g amphtml-validator
@@ -81,17 +76,10 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
   https://www.ampproject.org/: PASS
   ```
   
-* ブラウザ拡張機能（[参照][browser-extension]）
-  * https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc
+- ブラウザ拡張機能（[参照][browser-extension]）
+  - https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc
 
 [bowser-developer-console]: https://www.ampproject.org/docs/guides/validate#browser-developer-console
 [web-interface]: https://www.ampproject.org/docs/guides/validate#web-interface
 [command-line-tool]: https://www.ampproject.org/docs/guides/validate#command-line-tool
 [browser-extension]: https://www.ampproject.org/docs/guides/validate#browser-extension
-
-
-## トラブルシューティング
-
-基本的に考えられるエラーは Google が [AMP Validation Erros](https://www.ampproject.org/docs/reference/validation_errors) と言うかたちでまとめてくれているのでそこでまず検索してみればいいです。
-
-

@@ -20,18 +20,6 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
 * AMP JS ... AMP HTML を高速に読み込むためのライブラリ
 * Google AMP Cache ... AMP HTML をキャッシュしている Google の CDN
 
-## AMP HTML
-
-AMP HTML は通常の HTML で使えるタグに加えて独自タグを使えるようにしたものです。独自タグのことを "AMP HTML components" と読んでいます。例えば `amp-img` タグなどがそれにあたります。
-
-## AMP JS
-
-AMP JS ライブラリは AMP のパフォーマンスのベストプラクティスで挙げているものを実装したもの。
-
-## Google AMP Cache 
-
-Google AMP Cache は CDN でバリデーター機能も組み込まれていてそれを使って正しく動作することが保証されている。
-
 
 ## :chart_with_upwards_trend: なぜ AMMP ページは早いのか？
 
@@ -45,6 +33,7 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
 8. Only run GPU-accelerated animations
 9. Prioritize resource loading
 10. Load pages in an instant
+
 
 ## :bulb: ヒント
 

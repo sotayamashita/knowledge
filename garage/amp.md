@@ -33,7 +33,7 @@ AMP JS ライブラリは AMP のパフォーマンスのベストプラクテ�
 Google AMP Cache は CDN でバリデーター機能も組み込まれていてそれを使って正しく動作することが保証されている。
 
 
-## :bulb: Tips
+## :bulb: ヒント
 
 ### サイズの分からない画像
 `<amp-img/>` コンポーネントは基本的に画像のサイズを指定する必要があります。これはパフォーマンス的な問題です。画像サイズをあらかじめ指定しておくことで画像をロードした後に改めてレイアウト`<layout>`をする（この言葉の使い方微妙）必要がでてきます。
@@ -81,33 +81,6 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
 [command-line-tool]: https://www.ampproject.org/docs/guides/validate#command-line-tool
 [browser-extension]: https://www.ampproject.org/docs/guides/validate#browser-extension
 
-## Tips
-
-### `<amp-iframe>`
-
-iframe 表示側記述：
-
-```
-<amp-iframe width=300 height=300
-    layout="responsive"
-    sandbox="allow-scripts allow-same-origin"
-    resizable
-    src="https://foo.com/iframe">
-  <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
-</amp-iframe>
-```
-
-iframe のコンテンツ側：
-
-```javascript
-<script>
-  window.parent.postMessage({
-   sentinel: 'amp',
-   type: 'embed-size',
-   height: document.body.scrollHeight
-  }, '*');
-</script>
-```
 
 ## トラブルシューティング
 

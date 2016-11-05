@@ -36,7 +36,7 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
 ## :mag_right: 検証
 
 * デベロッパー コンソール （[参照][bowser-developer-console]）
-  * URL の最後に `<AMP対応ページURL>?development=1` をつける
+  * URL の最後に `<AMP対応ページURL>?#development=1` をつける
 * Web インターフェース（[参照][web-interface]）
   * `https://search.google.com/search-console/amp?url=<AMP対応ページURL>` へアクセス  
   * https://validator.ampproject.org/ へアクセスして URL を入力
@@ -47,6 +47,7 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
   $ amphtml-validator https://www.ampproject.org/
   https://www.ampproject.org/: PASS
   ```
+  
 * ブラウザ拡張機能（[参照][browser-extension]）
   * https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc
 

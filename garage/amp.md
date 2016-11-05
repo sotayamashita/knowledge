@@ -33,6 +33,8 @@ AMP JS ライブラリは AMP のパフォーマンスのベストプラクテ�
 Google AMP Cache は CDN でバリデーター機能も組み込まれていてそれを使って正しく動作することが保証されている。
 
 
+## :chart_with_upwards_trend: なぜ AMMP ページは早いのか？
+
 ## :bulb: ヒント
 
 ### サイズの分からない画像

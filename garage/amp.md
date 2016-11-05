@@ -23,7 +23,7 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
 
 ## :chart_with_upwards_trend: なぜ AMMP ページは早いのか？
 
-1.Allow only asynchronous scripts
+1. Allow only asynchronous scripts
 2. Size all resources statically
 3. Don't let extension mechanisms block rendering
 4. Keep all third-party JavaScript out of the critical path
@@ -62,6 +62,8 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
   ```
   
 3. サーバサイドで計算する
+
+　　サーバ側であらかじめ決まった画像サイズしか返さないようにリサイズ処理をいれる。`/image/amp.png` というリクエストがきたらそれをリサイズなどの処理をして画像を返す。
 
 
 ## :mag_right: 検証

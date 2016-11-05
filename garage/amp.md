@@ -49,7 +49,8 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
   ```
   
 2. 適当な幅と高さを指定して CSS で上書きする
-
+  > 注意点：この場合にあらかじめ適当に指定した画像よりも高さが小さくなってしまう場合に不要なスペースがでてきしまいます。ただからといって小さいサイズを指定しまうと `<amp-img>` タグには `amp-img { overflow: hidden; !important }` を指定されているので画像が見切れてしまいます。
+  
   ```html
   <amp-img src="/img/amp.png" height="100" width="100"></amp-img>
   ```
@@ -59,6 +60,9 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
     height: auto;
   }
   ```
+  
+3. サーバサイドで計算する
+
 
 ## :mag_right: 検証
 

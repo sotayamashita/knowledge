@@ -71,8 +71,8 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
 
   ```
   $ npm install -g amphtml-validator
-  $ amphtml-validator https://www.ampproject.org/
-  https://www.ampproject.org/: PASS
+  $ amphtml-validator <AMP対応ページURL>
+  <AMP対応ページURL>: PASS
   ```
   
 - ブラウザ拡張機能（[参照][browser-extension]）

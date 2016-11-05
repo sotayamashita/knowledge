@@ -67,7 +67,8 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
   - URL の最後に `<AMP対応ページURL>?#development=1` をつける
 - Web インターフェース（[参照][web-interface]）
   - `https://search.google.com/search-console/amp?url=<AMP対応ページURL>` へアクセス  
-  - https://validator.ampproject.org/ へアクセスして URL を入力-* コマンドラインインターフェース（[参照][command-line-tool]）
+  - https://validator.ampproject.org/ へアクセスして URL を入力
+- コマンドラインインターフェース（[参照][command-line-tool]）
 
   ```
   $ npm install -g amphtml-validator

@@ -35,9 +35,20 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
 
 ## :chart_with_upwards_trend: なぜ AMMP ページは早いのか？
 
+1.Allow only asynchronous scripts
+2. Size all resources statically
+3. Don't let extension mechanisms block rendering
+4. Keep all third-party JavaScript out of the critical path
+5. All CSS must be inline and size-bound
+6. Font triggering must be efficient
+7. Minimize style recalculations
+8. Only run GPU-accelerated animations
+9. Prioritize resource loading
+10. Load pages in an instant
+
 ## :bulb: ヒント
 
-- [サイズの分からない画像の対応方法]()
+- [サイズの分からない画像の対応方法](#サイズの分からない画像の対応方法)
 
 ### サイズの分からない画像の対応方法
 `<amp-img/>` コンポーネントは基本的に画像のサイズを指定する必要があります。これはパフォーマンス的な問題です。画像サイズをあらかじめ指定しておくことで画像をロードした後に改めてレイアウト`<layout>`をする（この言葉の使い方微妙）必要がでてきます。しかしすべての画像があらかじめわかる訳ではありません。例えば API などで取得した画像などです。こういう画像を AMP 上で表示させるには以下の方法があります：

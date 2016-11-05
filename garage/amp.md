@@ -45,6 +45,18 @@ Google AMP Cache は CDN でバリデーター機能も組み込まれていて�
   ```html
   <amp-img layout="fixed-height" src="/img/amp.png" height="300"></amp-img>
   ```
+  
+2. 適当な幅と高さを指定して CSS で上書きする
+
+  ```html
+  <amp-img src="/img/amp.png" height="100" width="100"></amp-img>
+  ```
+  ```css
+  amp-img img {
+    width: auto;
+    height: auto;
+  }
+  ```
 
 ## :mag_right: 検証
 

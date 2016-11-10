@@ -14,10 +14,13 @@ $ git branch --merged | egrep -v "(^\*|master|dev)"
 # マージされたブランチを削除（master と develop を除く）
 $ git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 ```
-
-
+```
+[alias]
+    cleanup = "git branch --merged | egrep -v \"(^\*|master|dev)\" | xargs git branch -d"
+```
 
 - [git branch](https://git-scm.com/docs/git-branch)
+- [How can I delete all git branches which have been merged? | StackOverflow](http://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged)
 
 
 ### Fork したレポジトリを本家に追従

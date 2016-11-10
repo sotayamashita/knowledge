@@ -6,16 +6,18 @@
 
 ```bash
 # マージされたブランチを表示（master と develop を除く）
-$ git branch --merged | grep -vE '^\*|master$|develop$
+$ git branch --merged | egrep -v "(^\*|master|dev)"
   feature/hoge
   feature/fuga
 ```
 ```bash
 # マージされたブランチを削除（master と develop を除く）
-$ git branch --merged | grep -vE '^\*|master$|develop$ | xargs -I % git branch -d %
+$ git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 ```
 
-* [git branch](https://git-scm.com/docs/git-branch)
+
+
+- [git branch](https://git-scm.com/docs/git-branch)
 
 
 ### Fork したレポジトリを本家に追従

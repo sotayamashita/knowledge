@@ -1,9 +1,14 @@
 # Git
 
-## 日本語
+# 日本語
+
+#### 目次
+- [マージ済みのブランチ一覧表示]()
+- [Fork したレポジトリを本家に追従]()
+- [プルリクエスト(マージリクエスト)のリバート]()
+
 
 ### マージ済みのブランチ一覧表示
-
 ```bash
 # マージされたブランチを表示（master と develop を除く）
 $ git branch --merged | egrep -v "(^\*|master|dev)"
@@ -24,7 +29,6 @@ $ git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 
 
 ### Fork したレポジトリを本家に追従
-
 ```
 $ git remote add upstream git@github.com:nodejs/nodejs.org.git
 $ git branch -a
@@ -53,7 +57,6 @@ Updating 909c5ba..56b016d
 
 
 ### プルリクエスト(マージリクエスト)のリバート
-
 ```
 $ git revert commit_hash
 error: Commit commit_hash is a merge but no -m option was given.

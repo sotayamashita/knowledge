@@ -1,4 +1,5 @@
-# Git
+# Git・GitHub
+
 
 # 日本語
 

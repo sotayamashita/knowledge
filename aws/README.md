@@ -1,12 +1,12 @@
 # Amazon Web Service (AWS)
 
-- [英語](#英語)
+- [English](#englsih)
 - [日本語](#日本語)
 
 [elb]:      https://github.com/sotayamashita/knowledge/blob/master/aws/elb.md
 [oneliner]: https://github.com/sotayamashita/knowledge/blob/master/aws/one-liner.md
 
-# 英語
+# English
 
 > 
 

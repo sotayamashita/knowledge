@@ -10,7 +10,7 @@ Server version: Apache Tomcat/7.0.68
 
 Tomcat はサーブレットコンテナ
 
-## ログ
+## ログの種類
 
 - catalina.log メインログ
 - catalina.out サーバ起動・停止、サービスの開始・停止ログ

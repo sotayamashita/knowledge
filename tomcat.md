@@ -4,10 +4,6 @@
 Server version: Apache Tomcat/7.0.68
 ```
 
-* [日本語](#日本語)
-
-# 日本語
-
 Tomcat はサーブレットコンテナ
 
 ## ログの種類

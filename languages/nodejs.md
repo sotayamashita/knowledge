@@ -17,5 +17,8 @@
 
 Node.js では様々なやりとりが [GitHub の issue](https://github.com/nodejs/node/issues) 上で行われています。特に初めての人向けに [[good first contribution]](https://github.com/nodejs/node/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+contribution%22) というラベルがついているものがあるのでまずはそこから始めてみるといいかもしれません。
 
+
+## 参照
+
 - [Nodeへの コード貢献の仕方](https://speakerdeck.com/shigeki/nodehefalse-kodogong-xian-falseshi-fang)
 - [shigeki/code_and_learn_nodefest_tokyo_2016](https://github.com/shigeki/code_and_learn_nodefest_tokyo_2016)

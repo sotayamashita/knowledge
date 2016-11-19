@@ -27,12 +27,14 @@ git clone git@github.com:<username>/node.git && cd node
 git add upstream git@github.com:nodejs/node.git
 ```
 
-```
+```bash
+# 環境情報を記入した Makefile ファイル作成
 ./configure
+# configure で作成された Makefile をもとにしてソースコードをコンパイル 
 make
 ```
 
-## 参照
+### 参照
 
 - [Nodeへの コード貢献の仕方](https://speakerdeck.com/shigeki/nodehefalse-kodogong-xian-falseshi-fang)
 - [shigeki/code_and_learn_nodefest_tokyo_2016](https://github.com/shigeki/code_and_learn_nodefest_tokyo_2016)

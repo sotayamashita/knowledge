@@ -1,3 +1,44 @@
+負荷状況を示す指標の１つとして、ロードアベレージがあります。ロードアベレージとは
+
+
+
+```
+$ lscpu | egrep 'Thread|Core|Socket|^CPU\('
+CPU(s):                36
+Thread(s) per core:    2
+Core(s) per socket:    9
+Socket(s):             2
+
+$ nproc --all
+36
+```
+
+- [lscpu](https://linux.die.net/man/1/lscpu)
+- [nproc](https://linux.die.net/man/1/nproc)
+
+```
+$ uptime                   
+ 15:50:13 up 8 days, 14:06,  3 users,  load average: 10.45, 9.60, 9.31
+```
+
+- [uptime](https://linux.die.net/man/1/uptime)
+
+`r` が run queue で `b` が wait queue の値です。
+
+```
+$ vmstat
+procs -----------memory---------- ---swap-- -----io---- --system-- -----cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+15  0      0 8632712 192028 458508    0    0     0     0    1    1 15  0 85  0  0
+```
+
+- [vmstat](https://linux.die.net/man/1/vmstat)
+
+
+
+
+---
+
 # Alert
 
 * 英語

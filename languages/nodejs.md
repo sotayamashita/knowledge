@@ -21,17 +21,18 @@ Node.js では様々なやりとりが [GitHub の issue](https://github.com/nod
 
 https://github.com/nodejs/node/blob/master/BUILDING.md
 
-```
+```bash
 # fork nodejs/node
-git clone git@github.com:<username>/node.git && cd node
-git add upstream git@github.com:nodejs/node.git
+$ git clone git@github.com:<username>/node.git && cd node
+# Fork/cloneしたリポジトリを本家リポジトリに追従する
+$ git add upstream git@github.com:nodejs/node.git
 ```
 
 ```bash
 # 環境情報を記入した Makefile ファイル作成
-./configure
+$ ./configure
 # configure で作成された Makefile をもとにしてソースコードをコンパイル 
-make
+$ make
 ```
 
 ### 参照

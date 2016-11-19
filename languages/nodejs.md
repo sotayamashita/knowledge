@@ -17,6 +17,20 @@
 
 Node.js では様々なやりとりが [GitHub の issue](https://github.com/nodejs/node/issues) 上で行われています。特に初めての人向けに [[good first contribution]](https://github.com/nodejs/node/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+contribution%22) というラベルがついているものがあるのでまずはそこから始めてみるといいかもしれません。
 
+### ビルド方法
+
+https://github.com/nodejs/node/blob/master/BUILDING.md
+
+```
+# fork nodejs/node
+git clone git@github.com:<username>/node.git && cd node
+git add upstream git@github.com:nodejs/node.git
+```
+
+```
+./configure
+make
+```
 
 ## 参照
 

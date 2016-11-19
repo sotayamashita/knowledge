@@ -41,3 +41,4 @@ ref
 * https://blogs.oracle.com/yappri/entry/loadavg
 * http://d.hatena.ne.jp/naoya/20070518/1179492085
 * http://superuser.com/questions/23498/what-does-load-average-mean-in-unix-linux
+* http://qiita.com/rsooo/items/42f0902d42bab6ecf175

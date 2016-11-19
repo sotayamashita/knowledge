@@ -48,28 +48,18 @@ Node.js では様々なやりとりが [GitHub の issue](https://github.com/nod
 1. コミット
 
   ```bash
-  ````
   
-  - 
-
-1. 
-
-  ```bash
-  # 環境情報を記入した Makefile ファイル作成
-  $ ./configure
-  # configure で作成された Makefile をもとにしてソースコードをコンパイル 
-  $ make
-  ```
+  ````
 
 1. マージリクエスト送る前のチェック
 
-  - [ ] テストが通るか確認
+  - テストが通るか確認
     
     ```bash
     $ make lint
     ```
     
-  - [ ] コミットメッセージが正しいか確認
+  - コミットメッセージが正しいか確認
     
     ```bash
     $ git log --oneline <変更したファイルパス>

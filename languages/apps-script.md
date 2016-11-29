@@ -3,6 +3,7 @@
 # 日本語
 
 ```javascript
+// File > Project Properies > Script Properties
 var scriptProp = PropertiesService.getScriptProperties().getProperties();
 var TOKEN = scriptProp.TOKEN;
 var SECRET = scriptProp.SECRET;

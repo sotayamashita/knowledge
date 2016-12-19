@@ -6,7 +6,7 @@
 
 **インラインでの再生**
 ```html
-<video inlineplay />
+<video playsinline></video>
 ```
 ref:
 - https://webkit.org/blog/6784/new-video-policies-for-ios/

@@ -7,6 +7,7 @@
 
 ## タグ
 ### `<video/>`
+> - [The video element (HTML5 specification)](https://html.spec.whatwg.org/#the-video-element)
 
 **インラインでの再生**
 ```html

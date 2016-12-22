@@ -86,3 +86,4 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
 
 ## その他
 - https://www.ampproject.org/roadmap/
+- https://developers-jp.googleblog.com/2016/12/amp-cache-updates.html

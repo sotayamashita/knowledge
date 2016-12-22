@@ -83,3 +83,6 @@ AMP は Accesarate Mobile Performance の略で。Google によって提唱さ�
 [web-interface]: https://www.ampproject.org/docs/guides/validate#web-interface
 [command-line-tool]: https://www.ampproject.org/docs/guides/validate#command-line-tool
 [browser-extension]: https://www.ampproject.org/docs/guides/validate#browser-extension
+
+## その他
+- https://www.ampproject.org/roadmap/

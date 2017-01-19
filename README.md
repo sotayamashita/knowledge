@@ -12,9 +12,7 @@
 
 ## See Also
 
-- [yoshuawuyts/knowledge](https://github.com/yoshuawuyts/knowledge)
-- [joshwnj/knowledge](https://github.com/joshwnj/knowledge)
-- [theatlasroom/tidbits](https://github.com/theatlasroom/tidbits)
+See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other lists by people who also record stuff on GitHub.
 
 
 ## License

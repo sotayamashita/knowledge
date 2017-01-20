@@ -32,9 +32,6 @@ procs -----------memory---------- ---swap-- -----io---- --system-- -----cpu-----
 15  0      0 8632712 192028 458508    0    0     0     0    1    1 15  0 85  0  0
 ```
 
-- [vmstat](https://linux.die.net/man/1/vmstat)
-
-
 
 
 ---

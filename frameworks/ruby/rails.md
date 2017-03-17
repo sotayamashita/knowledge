@@ -1,4 +1,6 @@
-# Rails
+# Ruby on Rails
+
+## Architecture
 
 ## Migration
 

@@ -1,8 +1,8 @@
 # ruby on rails
 
-## test
+# test
 
-### stub_request
+## stub_request
 
 ### naming conventions 
 

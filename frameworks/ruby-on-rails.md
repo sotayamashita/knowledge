@@ -1,10 +1,10 @@
 # ruby on rails
 
-# test
+## test
 
-## stub_request
+### stub_request
 
-### naming conventions 
+#### naming conventions 
 
 <!-- TODO: write the reason -->
 

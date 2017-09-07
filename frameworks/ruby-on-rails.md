@@ -1,8 +1,10 @@
 # ruby on rails
 
-## Test
+## test
 
 ### stub_request
+
+### naming conventions 
 
 <!-- TODO: write the reason -->
 

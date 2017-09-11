@@ -1,8 +1,8 @@
-[issue]: https://github.com/sotayamashita/knowledge/issues/new
+[issue]: https://github.com/sotayamashita/knowledge/issues/new?labels=ruby-on-rails
 
 # ruby on rails
 
-This is a best practice of Ruby on Rails for me. I am not a specialist of it and I am keep learning it so this will be changed or updated. If you have a lot of expericen of it and you find something wrong, please [create a issue][issue] to fix my misunderstanding. Thanks
+This is a Ruby on Rails best practice for me. This will be changed or updated because I am keep learning and try to improve my code. If you have a lot of expericen of it and you find something wrong, please [create a issue][issue] to fix my misunderstanding. Thanks
 
 ## test 
 

@@ -1,6 +1,8 @@
 # ruby on rails
 
-## test
+This is a best practice of Ruby on Rails for me. I am not a specialist of it and I am keep learning it so this docs will be updated and changed. If you have a lot of expericen of it and you find something wrong, please create a issue to fix my misunderstanding. Thanks
+
+## test 
 
 ### stub_request
 

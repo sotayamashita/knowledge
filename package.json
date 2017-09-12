@@ -3,12 +3,22 @@
   "name": "knowledge",
   "version": "1.0.0",
   "scripts": {
-    "lint": "standard script/**/*.js | snizzy",
-    "lint:fix": "standard script/**/*.js --fix | snizzy",
-    "commit": "node script/commit.js"
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\"",
+    "posttest": "standard | snazzy",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "commitmsg": "validate-commit-msg"
   },
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
     "snazzy": "^7.0.0",
     "standard": "^10.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

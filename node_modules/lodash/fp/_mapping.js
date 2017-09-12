@@ -167,8 +167,7 @@ exports.iterateeAry = {
 
 /** Used to map method names to iteratee rearg configs. */
 exports.iterateeRearg = {
-  'mapKeys': [1],
-  'reduceRight': [1, 0]
+  'mapKeys': [1]
 };
 
 /** Used to map method names to rearg configs. */

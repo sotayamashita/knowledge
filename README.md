@@ -5,6 +5,6 @@
 
 # knowledge [![Build Status][Build Badge]][Build Link] [![PRs & Issues Welcome][welcom-badge]][welcome-link]
 
-Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts)'s [knowledge repository](https://github.com/yoshuawuyts/knowledge). I write knowledge :bulb: which I lean in my work :briefcase: and open source projects :octocat:. See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other lists by people who also record stuff on GitHub.
+Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts)'s [knowledge repository](https://github.com/yoshuawuyts/knowledge). I write knowledge which I lean in my work and open source projects . See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other lists by people who also record stuff on GitHub.
 
 MIT © Sota Yamashita

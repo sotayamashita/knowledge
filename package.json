@@ -1,5 +1,14 @@
 {
   "private": true,
   "name": "knowledge",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "standard script/**/*.js | snizzy",
+    "lint:fix": "standard script/**/*.js --fix | snizzy",
+    "commit": "node script/commit.js"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
 }

@@ -8,5 +8,5 @@
 
 ## javascript
 
-- :construction: :book: :ja: [JavaScriptデザインパターン](https://www.amazon.co.jp/dp/487311618X)
- - :en: [Learning JavaScript Design Patterns](https://www.amazon.com/dp/1449331815)
+- :construction: :book: :jp: [JavaScriptデザインパターン](https://www.amazon.co.jp/dp/487311618X)
+  - :us: [Learning JavaScript Design Patterns](https://www.amazon.com/dp/1449331815)

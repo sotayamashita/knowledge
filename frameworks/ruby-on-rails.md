@@ -96,6 +96,6 @@ class Admin::HogeController < Admin::ApplicationController
 end
 ```
 
-## References
+## references
 
 - [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce) 

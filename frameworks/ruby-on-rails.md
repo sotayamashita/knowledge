@@ -27,6 +27,10 @@ $ bundle exec rails new .
 $ bundle exec rails s
 ```
 
+## Gemfile
+
+- [ref](https://github.com/sotayamashita/knowledge/blob/master/frameworks/Gemfile)
+
 ## test 
 
 ### stub_request

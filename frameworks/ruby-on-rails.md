@@ -4,6 +4,29 @@
 
 This is a Ruby on Rails best practice for me. This will be changed or updated because I am keep learning and try to improve my code. If you have a lot of expericen of it and you find something wrong, please [create a issue][issue] to fix my misunderstanding. Thanks
 
+## init
+
+I make sure to keep global be clean. 
+
+```
+$ mkdir <project nmae>; cd <project name>
+
+$ bunlde init
+Writing new Gemfile to /Users/sota/Desktop/test/Gemfile
+
+$ vim Gemfile
+gem "rails"
+
+$ bunlde install --path vendor/bundle
+Resolving dependencies...
+Bundle complete! n Gemfile dependencies, n gem now installed.
+Bundled gems are installed into ./vendor/bundle.
+
+$ bundle exec rails new .
+
+$ bundle exec rails s
+```
+
 ## test 
 
 ### stub_request

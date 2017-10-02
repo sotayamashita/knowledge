@@ -53,7 +53,42 @@ def stub_request_gengo_to_retrieve_jobs_by_id; end
 
 ## tips
 
-### split routes
+### great rake task
+
+```ruby
+namespace <TODO namespace> do
+  desc "TODO write descritpion in one line"
+  task <TODO taks name>: :environment do |t, args|
+    # To check
+    STDOUT.puts "Are you sure? (y/n)"
+    input = STDIN.gets.strip.downcase
+    
+    if input == 'y'
+      # TODO: write some task
+    else
+      STDOUT.puts "So sorry for the confusion"
+    end
+  end
+end
+```
+
+```
+.
+└── lib
+    └── tasks
+        ├── update
+        │   ├── user.rb
+        │   └── plan.rb
+        ├── create
+        │   ├── user.rb
+        │   └── plan.rb
+        └── lint
+            └── rubocop.rb
+```
+
+- https://edelpero.svbtle.com/everything-you-always-wanted-to-know-about-writing-good-rake-tasks-but-were-afraid-to-ask
+
+### split routes for maintain
 
 ```
 .

@@ -6,7 +6,7 @@
 
 ```bash
 $ git checkout pull-request-branch
-$ git checkout origin/master -- src/trash.js
+$ git checkout origin/master -- secret.txt
 ```
 
 ```bash

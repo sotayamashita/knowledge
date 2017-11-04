@@ -20,17 +20,14 @@
 1. Install ZEC wallet
 2. Join a ZEC Mining Pool
 3. Install ZEC Mining Software on your Mac
-  - https://github.com/kost/nheqminer
-
-  ```bash
-  #!/bin/bash
-
-  main() {
-    ./nheqminer -l zec.suprnova.cc:2142 -u t1Zzz5nMH8ijNNePR38inJq7Cc5UPXvCAwL -p x -t 4
-  }
-
-  main "%@"
-  ```
+    - https://github.com/kost/nheqminer
+    ```bash
+    #!/bin/bash
+    main() {
+      ./nheqminer -l zec.suprnova.cc:2142 -u t1Zzz5nMH8ijNNePR38inJq7Cc5UPXvCAwL -p x -t 4
+    }
+    main "%@"
+    ```
 
 ## Donations
 

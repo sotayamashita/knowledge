@@ -41,6 +41,7 @@
 - [CoinGecko](https://www.coingecko.com/en)
 - [仮想通貨のあそび場](http://www.monero.tokyo/)
 - [リアル仮想通貨ファン](https://crypto-currency-fun.com/gmethminingresult.php)
+- [暗号通貨日記](http://altcoins.blue/)
 
 ## Donations
 

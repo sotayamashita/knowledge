@@ -40,6 +40,7 @@
 - [Cryptocurrency Market Capitalizations](https://coinmarketcap.com/)
 - [CoinGecko](https://www.coingecko.com/en)
 - [仮想通貨のあそび場](http://www.monero.tokyo/)
+- [リアル仮想通貨ファン](https://crypto-currency-fun.com/gmethminingresult.php)
 
 ## Donations
 

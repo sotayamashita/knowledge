@@ -8,5 +8,3 @@
 # knowledge [![Build Status][ci-badge]][ci-link] [![PRs & Issues Welcome][welcome-badge]][welcome-link] [![Commitizen friendly][commitizen-badge]][commitizen-link]
 
 Inspired by [@yoshuawuyts](https://github.com/yoshuawuyts)'s [knowledge repository](https://github.com/yoshuawuyts/knowledge). I write knowledge which I lean in my work and open source projects . See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other lists by people who also record stuff on GitHub.
-
-MIT © Sota Yamashita

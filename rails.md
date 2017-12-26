@@ -27,6 +27,11 @@ raise_error(Exception)
 Using `any_instance` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /path/to/fuga_spec.rb:in'.
 ```
 
+```
+# memo
+#any_instance and #stub are part of the old should syntax. The syntax you're looking for instead is
+```
+
 ```ruby
 # before
 class.any_instance.stub(:method)
@@ -34,7 +39,9 @@ class.any_instance.stub(:method)
 ↓
 
 # after
-allow_any_instance_of(class).stub(:method)
+allow_any_instance_of(class).to receive(:method)
 ```
+
+
 
 - [RSpec any_instance deprecation: how to fix it?](https://stackoverflow.com/questions/24595203/rspec-any-instance-deprecation-how-to-fix-it)

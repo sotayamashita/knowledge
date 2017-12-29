@@ -8,6 +8,8 @@
 
 ## How to write test with rspec
 
+What is the difference between `dscribe` and `context`? 
+
 ### Test public class methods
 
 ### Test private class methods

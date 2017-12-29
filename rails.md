@@ -1,3 +1,17 @@
+## How to write app
+
+### Split routes into small parts
+
+## How to write rake task
+
+## How to write test with rspec
+
+### Test public class methods
+
+### Test private class methods
+
+### Test API request
+
 ### WARNING: Using the `raise_error` matcher without providing a specific error or message risks false positives
 
 - `rspec`

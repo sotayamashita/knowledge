@@ -1,5 +1,7 @@
 ## How to write app
 
+### Validate user input
+
 ### Split routes into small parts
 
 ## How to write rake task

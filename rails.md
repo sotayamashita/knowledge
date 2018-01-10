@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [How to write app](#how-to-write-app)
+  - [Validate user input](#validate-user-input)
+  - [Split routes into small parts](#split-routes-into-small-parts)
+- [How to write rake task](#how-to-write-rake-task)
+- [How to write test with rspec](#how-to-write-test-with-rspec)
+  - [Test public class methods](#test-public-class-methods)
+  - [Test private class methods](#test-private-class-methods)
+  - [Test API request](#test-api-request)
+  - [WARNING: Using the `raise_error` matcher without providing a specific error or message risks false positives](#warning-using-the-raise_error-matcher-without-providing-a-specific-error-or-message-risks-false-positives)
+  - [Using `any_instance` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated](#using-any_instance-from-rspec-mocks-old-should-syntax-without-explicitly-enabling-the-syntax-is-deprecated)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## How to write app
 
 ### Validate user input

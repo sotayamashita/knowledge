@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Pull Request](#pull-request)
+  - [Remove a modified file from pull request](#remove-a-modified-file-from-pull-request)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Pull Request
 
 ### Remove a modified file from pull request

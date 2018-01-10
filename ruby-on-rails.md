@@ -2,11 +2,70 @@
 
 # ruby on rails
 
-This is a Ruby on Rails best practice for me. This will be changed or updated because I am keep learning and try to improve my code. If you have a lot of expericen of it and you find something wrong, please [create a issue][issue] to fix my misunderstanding. Thanks
+Ruby on Rails best practice for my experience. This will be changed or updated. I am keep learning and try to improve my code. If you have a lot of expericen of it and you find something wrong, please [create a issue][issue] to fix my misunderstanding. Thanks :smile:
+
+## Directory Structure
+
+```
+tree -I 'vendor|node_modules|tmp' --dirsfirst
+.
+├── app
+│   ├── assets
+│   ├── helpers
+│   ├── mailers
+│   ├── models
+│   ├── repositories
+│   ├── presenters
+│   ├── services
+│   ├── controllers
+│   ├── views
+│   └── workers
+├── bin
+├── config
+├── config
+│   ├── environments
+│   ├── initializers
+│   ├── routes.rb
+│   └── routes
+├── db
+│   └── seeds.rb
+├── lib
+│   ├── assets
+│   └── tasks
+│       └── <model>  # e.g.) users
+│          ├── create.rake
+│          └── update.rake
+├── spec
+│   ├── rails_helper.rb
+│   ├── spec_helper.rb
+│   ├── models
+│   │   └── user_spec.rb
+│   ├── repositories
+│   ├── presenters
+│   ├── services
+│   ├── controllers
+│   │   └── users_controller_spec.rb
+│   ├── routing
+│   │   └── users_routing_sepc.rb
+│   ├── requests
+│   └── workers
+└── public
+```
+
+
+## References
+
+- Directory Structure
+  - [Everything You Always Wanted to Know About Writing Good Rake Tasks * But Were Afraid to Ask](https://edelpero.svbtle.com/everything-you-always-wanted-to-know-about-writing-good-rake-tasks-but-were-afraid-to-ask)
+  - [Directory Structure](https://relishapp.com/rspec/rspec-rails/docs/directory-structure)
+
+
+-----------
+
 
 ## init
 
-I make sure to keep global be clean. 
+I make sure to keep global be clean.
 
 ```
 $ mkdir <project nmae>; cd <project name>
@@ -31,11 +90,11 @@ $ bundle exec rails s
 
 - [ref](https://github.com/sotayamashita/knowledge/blob/master/frameworks/Gemfile)
 
-## test 
+## test
 
 ### stub_request
 
-#### naming conventions 
+#### naming conventions
 
 <!-- TODO: write the reason -->
 
@@ -62,7 +121,7 @@ namespace <TODO namespace> do
     # To check
     STDOUT.puts "Are you sure? (y/n)"
     input = STDIN.gets.strip.downcase
-    
+
     if input == 'y'
       # TODO: write some task
     else
@@ -160,4 +219,4 @@ end
 
 ## references
 
-- [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce) 
+- [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce)  -->

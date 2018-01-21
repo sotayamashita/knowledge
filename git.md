@@ -4,7 +4,7 @@
 
 - [Pull Request](#pull-request)
   - [Checking out pull requests](#checking-out-pull-requests)
-    - [For repo](#for-repo)
+    - [For a repo](#for-a-repo)
     - [For all repos](#for-all-repos)
   - [Remove a modified file from pull request](#remove-a-modified-file-from-pull-request)
     - [Example](#example)
@@ -15,7 +15,7 @@
 
 ## Checking out pull requests
 
-### For repo
+### For a repo
 
 Add `fetch = +refs/pull/*/head:refs/remotes/origin/pr/*` to fetch pull requests:
 

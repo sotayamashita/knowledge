@@ -5,7 +5,7 @@
   "description": "[![Build Status](https://travis-ci.org/sotayamashita/knowledge.svg?branch=master)](https://travis-ci.org/sotayamashita/knowledge)",
   "main": "index.js",
   "scripts": {
-    "doctoc": "doctoc *.md --github",
+    "doctoc": "doctoc */**.md --github",
     "commit": "npm run doctoc && ./script/commit"
   },
   "repository": {

@@ -1,3 +1,9 @@
+[issue]: https://github.com/sotayamashita/knowledge/issues/new?labels=git
+
+# Git
+
+Git cheatseet. This will be changed or updated. I am keep learning and try to improve. If you have a lot of expericen of it and you find something wrong, please [create a issue][issue] to fix my misunderstanding. Thanks :smile:
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*

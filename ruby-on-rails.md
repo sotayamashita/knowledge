@@ -12,6 +12,16 @@ Ruby on Rails best practice for my experience. This will be changed or updated. 
 
 - [Directory Structure](#directory-structure)
 - [References](#references)
+- [init](#init)
+- [Gemfile](#gemfile)
+- [test](#test)
+  - [stub_request](#stub_request)
+    - [naming conventions](#naming-conventions)
+- [tips](#tips)
+  - [great rake task](#great-rake-task)
+  - [split routes for maintain](#split-routes-for-maintain)
+  - [admin page](#admin-page)
+- [references](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

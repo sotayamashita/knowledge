@@ -48,6 +48,8 @@ $ git checkout pr/1000
 git config --global --add remote.origin.fetch "+refs/pull/*/head:refs/remotes/origin/pr/*"
 ```
 
+### References
+
 - [Checkout github pull requests locally](https://gist.github.com/piscisaureus/3342247)
 - [Checking out pull requests locally](https://help.github.com/articles/checking-out-pull-requests-locally/)
 
@@ -76,3 +78,7 @@ $ git checkout origin/master -- secret.txt
 $ git commit -m "Remove a modifiled file from pull request"
 $ git push
 ```
+
+### References
+
+- [Remove a modified file from pull request](https://stackoverflow.com/questions/39459467/remove-a-modified-file-from-pull-request)

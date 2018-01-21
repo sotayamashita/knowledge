@@ -19,7 +19,8 @@ Git cheatseet. This will be changed or updated. I am keep learning and try to im
   - [Remove a modified file from pull request](#remove-a-modified-file-from-pull-request)
     - [Example](#example)
     - [References](#references-1)
-- [Related](#related)
+- [References](#references-2)
+  - [See also](#see-also)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -112,6 +113,8 @@ $ git push
 
 - [Remove a modified file from pull request](https://stackoverflow.com/questions/39459467/remove-a-modified-file-from-pull-request)
 
-# Related
+# References
+
+## See also
 
 - [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)

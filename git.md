@@ -6,8 +6,10 @@
   - [Checking out pull requests](#checking-out-pull-requests)
     - [For a repo](#for-a-repo)
     - [For all repos](#for-all-repos)
+    - [References](#references)
   - [Remove a modified file from pull request](#remove-a-modified-file-from-pull-request)
     - [Example](#example)
+    - [References](#references-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

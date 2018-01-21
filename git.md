@@ -4,15 +4,18 @@
 
 - [Pull Request](#pull-request)
   - [Checking out pull requests](#checking-out-pull-requests)
+    - [For repo](#for-repo)
+    - [For all repos](#for-all-repos)
   - [Remove a modified file from pull request](#remove-a-modified-file-from-pull-request)
+    - [Example](#example)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Pull Request
+# Pull Request
 
-### Checking out pull requests
+## Checking out pull requests
 
-**For repo**
+### For repo
 
 Add `fetch = +refs/pull/*/head:refs/remotes/origin/pr/*` to fetch pull requests:
 
@@ -39,7 +42,7 @@ To check out a particular pull request:
 $ git checkout pr/1000
 ```
 
-**For all repos:**
+### For all repos
 
 ```bash
 git config --global --add remote.origin.fetch "+refs/pull/*/head:refs/remotes/origin/pr/*"
@@ -48,7 +51,7 @@ git config --global --add remote.origin.fetch "+refs/pull/*/head:refs/remotes/or
 - [Checkout github pull requests locally](https://gist.github.com/piscisaureus/3342247)
 - [Checking out pull requests locally](https://help.github.com/articles/checking-out-pull-requests-locally/)
 
-### Remove a modified file from pull request
+## Remove a modified file from pull request
 
 ```bash
 $ git checkout pull-request-branch
@@ -60,7 +63,7 @@ $ git commit -m "Remove a modifiled file from pull request"
 $ git push
 ```
 
-**Example:**
+### Example
 
 ![Remove a modified file from pull request](https://user-images.githubusercontent.com/1587053/32030174-39892c02-ba34-11e7-9709-eab8d3249306.png)
 

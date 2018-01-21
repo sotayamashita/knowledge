@@ -3,7 +3,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Pull Request](#pull-request)
-  - [Checking out pull requests](#checking-out-pull-requests)
+  - [Checking out pull requests locally](#checking-out-pull-requests-locally)
     - [For a repo](#for-a-repo)
     - [For all repos](#for-all-repos)
     - [References](#references)
@@ -15,7 +15,7 @@
 
 # Pull Request
 
-## Checking out pull requests
+## Checking out pull requests locally
 
 ### For a repo
 

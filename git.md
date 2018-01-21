@@ -10,18 +10,35 @@ Git cheatseet. This will be changed or updated. I am keep learning and try to im
 
 - [Pull Request](#pull-request)
   - [Checking out pull requests locally](#checking-out-pull-requests-locally)
+    - [For manually](#for-manually)
     - [For a repo](#for-a-repo)
     - [For all repos](#for-all-repos)
     - [References](#references)
   - [Remove a modified file from pull request](#remove-a-modified-file-from-pull-request)
     - [Example](#example)
     - [References](#references-1)
+- [Related](#related)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Pull Request
 
 ## Checking out pull requests locally
+
+### For manually
+
+Fetch the reference to the pull request based on its ID:
+
+```
+git fetch origin pull/<ID>/head:<branchname>
+```
+
+Switch to the new branch:
+
+```
+git checkout <branchname>
+Switched to a new branch 'branchname'
+```
 
 ### For a repo
 
@@ -90,3 +107,7 @@ $ git push
 ### References
 
 - [Remove a modified file from pull request](https://stackoverflow.com/questions/39459467/remove-a-modified-file-from-pull-request)
+
+# Related
+
+- [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)

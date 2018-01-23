@@ -98,7 +98,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 hoge:
 
 ```bash
-$ bundle exec rails new . -d postgresql --skip-coffee --skip-action-cable -B -P -C -T --force
+$ bundle exec rails new . -d postgresql --skip-coffee --skip-action-cable -B -C -T --force
 ```
 
 

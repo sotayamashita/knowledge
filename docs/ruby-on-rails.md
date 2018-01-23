@@ -73,6 +73,34 @@ tree -I 'vendor|node_modules|tmp' --dirsfirst
 └── public
 ```
 
+## Initialize
+
+hoge:
+
+```
+$ bundle init
+Writing new Gemfile to /path/to/Gemfile
+```
+
+`$ vim Gemfile`: 
+
+```diff
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+- # gem "rails"
++ gem "rails"
+```
+
+hoge:
+
+```bash
+$ bundle exec rails new . -d postgresql --skip-coffee -T -B -f
+```
+
 
 ## References
 

@@ -107,6 +107,7 @@ $ bundle exec rails new . -d postgresql --skip-coffee --skip-action-cable -B -C 
 - Directory Structure
   - [Everything You Always Wanted to Know About Writing Good Rake Tasks * But Were Afraid to Ask](https://edelpero.svbtle.com/everything-you-always-wanted-to-know-about-writing-good-rake-tasks-but-were-afraid-to-ask)
   - [Directory Structure](https://relishapp.com/rspec/rspec-rails/docs/directory-structure)
+  - [Refactoring Fat Models, Controllers, and Views Example](https://github.com/shakacode/fat-code-refactoring-techniques)
 
 
 -----------

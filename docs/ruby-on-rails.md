@@ -73,12 +73,30 @@ tree -I 'vendor|node_modules|tmp' --dirsfirst
 └── public
 ```
 
+## Learn Ruby on Rails
+
+Ruby on Rails is very popular but lot of versions so becaful when you google.
+
+- Getting Started
+- Real world :wild:
+  - https://gitlab.com/gitlab-org/gitlab-ce
+  - https://github.com/discourse/discourse
+
 ## How to find stable version and use
 
 1. Go to https://github.com/rails/rails
 1. Find `x.x-stable` on branch list
 1. Change the branch you want to use
 1. Find `RAILS_VERSION` and version is wrriten :100:
+
+## Which stable version should I use?
+
+You need keep mind ... TODO
+
+1. Security updates
+1. Functionality since Rails 5
+
+I use ... TODO because TODO
 
 ## Initialize
 

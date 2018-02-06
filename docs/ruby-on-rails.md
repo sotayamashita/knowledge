@@ -92,23 +92,14 @@ Ruby on Rails is very popular but lot of versions so becaful when you google.
 
 ## Initialize
 
-## Developer
-
-## Test
-
-## Deploy
-
-
-
-
-## How to find stable version and use
+### How to find stable version and use
 
 1. Go to https://github.com/rails/rails
 1. Find `x.x-stable` on branch list
 1. Change the branch you want to use
 1. Find `RAILS_VERSION` and version is wrriten :100:
 
-## Which stable version should I use?
+### Which stable version should I use?
 
 You need keep mind ... TODO
 
@@ -117,9 +108,7 @@ You need keep mind ... TODO
 
 I use ... TODO because TODO
 
-## Initialize
-
-TODO:
+### Keep global clean
 
 ```
 $ bundle init
@@ -139,11 +128,49 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 + gem "rails"
 ```
 
-TODO:
+Create Ruby on Rails project:
 
 ```bash
 $ bundle exec rails new . -d postgresql --skip-coffee -B -T --force
 ```
+
+## Develop
+
+### Overall architecture and eash relationship
+
+### How to write controller
+
+### How to write model
+
+### How to write presenters
+
+### How to write validators
+
+### How to write services
+
+## Test
+
+### Mock
+
+**Naming Convention**
+
+```ruby
+def stub_request_<Provider>_<HTTP method>_<API method>; end
+```
+
+For example:
+
+```ruby
+# GitHub GET /repos/:owner/:repo
+def stub_request_github_get_repo; end
+```
+
+
+
+
+
+--- 
+
 
 ## How to write controller
 

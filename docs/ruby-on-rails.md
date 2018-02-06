@@ -78,6 +78,12 @@ tree -I 'vendor|node_modules|tmp' --dirsfirst
 Ruby on Rails is very popular but lot of versions so becaful when you google.
 
 - Getting Started
+  - Official
+    - [Rails Official Website](http://rubyonrails.org)
+    - [Rails Official Guide](http://guides.rubyonrails.org) <small>[(Edge Guide)](http://edgeguides.rubyonrails.org)</small>
+    - [Rails API Documentation](http://api.rubyonrails.org)
+    - [Rails Source Code](https://github.com/rails/rails)
+    - [Rails Official Blog](http://weblog.rubyonrails.org)
 - Real world :wild:
   - https://gitlab.com/gitlab-org/gitlab-ce
   - https://github.com/discourse/discourse

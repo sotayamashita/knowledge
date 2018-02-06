@@ -101,6 +101,18 @@ hoge:
 $ bundle exec rails new . -d postgresql --skip-coffee --skip-action-cable -B -C -T --force
 ```
 
+## Tips for developemnt service
+
+### webhook
+
+- Stop using create payload which has a `action` key.
+
+  ```json
+  # ref https://developer.github.com/v3/activity/events/types/#marketplacepurchaseevent
+  {
+    "action": "changed",
+    "effective_date": "2017-04-06T02:01:16Z",
+  ```
 
 ## References
 
@@ -108,6 +120,7 @@ $ bundle exec rails new . -d postgresql --skip-coffee --skip-action-cable -B -C 
   - [Everything You Always Wanted to Know About Writing Good Rake Tasks * But Were Afraid to Ask](https://edelpero.svbtle.com/everything-you-always-wanted-to-know-about-writing-good-rake-tasks-but-were-afraid-to-ask)
   - [Directory Structure](https://relishapp.com/rspec/rspec-rails/docs/directory-structure)
   - [Refactoring Fat Models, Controllers, and Views Example](https://github.com/shakacode/fat-code-refactoring-techniques)
+
 
 
 -----------

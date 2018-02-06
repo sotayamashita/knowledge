@@ -73,7 +73,7 @@ tree -I 'vendor|node_modules|tmp' --dirsfirst
 └── public
 ```
 
-## Learn Ruby on Rails
+# Learn
 
 Ruby on Rails is very popular but lot of versions so becaful when you google.
 
@@ -87,6 +87,19 @@ Ruby on Rails is very popular but lot of versions so becaful when you google.
 - Real world :wild:
   - https://gitlab.com/gitlab-org/gitlab-ce
   - https://github.com/discourse/discourse
+  
+# Develop something :sparkles:
+
+## Initialize
+
+## Developer
+
+## Test
+
+## Deploy
+
+
+
 
 ## How to find stable version and use
 
@@ -131,6 +144,8 @@ TODO:
 ```bash
 $ bundle exec rails new . -d postgresql --skip-coffee -B -T --force
 ```
+
+## How to write controller
 
 ## Tips for developemnt service
 

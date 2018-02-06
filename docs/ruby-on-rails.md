@@ -73,9 +73,16 @@ tree -I 'vendor|node_modules|tmp' --dirsfirst
 └── public
 ```
 
+## How to find stable version and use
+
+1. Go to https://github.com/rails/rails
+1. Find `x.x-stable` on branch list
+1. Change the branch you want to use
+1. Find `RAILS_VERSION` and version is wrriten :100:
+
 ## Initialize
 
-hoge:
+TODO:
 
 ```
 $ bundle init
@@ -95,17 +102,17 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 + gem "rails"
 ```
 
-hoge:
+TODO:
 
 ```bash
-$ bundle exec rails new . -d postgresql --skip-coffee --skip-action-cable -B -C -T --force
+$ bundle exec rails new . -d postgresql --skip-coffee -B -T --force
 ```
 
 ## Tips for developemnt service
 
 ### webhook
 
-- Stop using create payload which has a `action` key.
+- Stop using create payload which has a `action` key. TODO: Write reason
 
   ```json
   # ref https://developer.github.com/v3/activity/events/types/#marketplacepurchaseevent
@@ -113,6 +120,7 @@ $ bundle exec rails new . -d postgresql --skip-coffee --skip-action-cable -B -C 
     "action": "changed",
     "effective_date": "2017-04-06T02:01:16Z",
   ```
+
 
 ## References
 
